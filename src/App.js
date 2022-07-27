@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 import About from "./components/AboutMe"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
+import Home from "./components/Home"
 
 function App() {
 
