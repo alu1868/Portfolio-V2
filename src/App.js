@@ -6,7 +6,7 @@ import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 
 // Import Variable Components
-import About from "./components/AboutMe"
+import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
 import Home from "./components/Home"
@@ -17,7 +17,7 @@ function App() {
 
   // switch statement
   const renderPage = () => {
-    if (currentPage === 'AboutMe') {
+    if (currentPage === 'About') {
       return <About />;
     }
     if (currentPage === 'Work') {

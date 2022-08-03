@@ -11,10 +11,10 @@ function Nav({ currentPage, handlePageChange }) {
                         Home</a>
                 </li>
                 <li>
-                    <a href="#AboutMe"
-                    onClick={() => handlePageChange("AboutMe")}
-                    className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}>
-                        About Me</a>
+                    <a href="#About"
+                    onClick={() => handlePageChange("About")}
+                    className={currentPage === "About" ? "nav-link active" : "nav-link"}>
+                        About</a>
                 </li>
                 <li>
                     <a href="#Work"
