@@ -3,15 +3,19 @@ import React from "react";
 function About() {
     return (
         <content>
-            {/* About Me Section */}
+            {/* --- About Me Section --- */}
             <section>
+                {/* Portrait */}
                 <div></div>
+                {/* Bio */}
                 <div></div>
             </section>
-            {/* Technology display */}
+            {/* --- END About Me Section --- */}
+            {/* --- Technology --- */}
             <article>
-
+                <div></div>
             </article>
+            {/* --- END Technology */}
         </content>
     )
 }
